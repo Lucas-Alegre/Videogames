@@ -1,0 +1,30 @@
+.card {
+    width: 250px;
+    height: 350px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    margin: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card h1 {
+    font-size: 25px;
+}
+
+.img {
+    width: 125px;
+    height: 115px;
+}
+
+.listas {
+    color: beige;
+}
+
+.lista {
+    color: aliceblue;
+    text-align: left;
+}
+

@@ -1,0 +1,136 @@
+.h1_food {
+    display: flex;
+    justify-content: center;
+    color: #dff700;
+    padding-top: 15px;
+}
+
+.nav {
+    color: rgb(233, 224, 224);
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 0px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.body {
+    background-image: url('../image/juego16.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,900,400italic,700italic,900italic);
+
+*,
+:before,
+:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fdf9fd;
+    color: #011a32;
+    font: 16px/1.25 'Raleway', sans-serif;
+    text-align: center;
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80em;
+}
+
+
+.animacion {
+    animation: text-shadow 2.5s ease-in-out infinite;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.animacion:hover {
+    animation-play-state: paused;
+}
+
+a {
+    /*color: #d3d33f;*/
+    color: #fb203b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+button {
+    background: none;
+    text-decoration: none;
+    border: none;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+
+@keyframes text-shadow {
+    0% {
+        transform: translateY(0);
+        text-shadow:
+            0 0 0 #0c2ffb,
+            0 0 0 #098585,
+            0 0 0 #fb203b,
+            0 0 0 #fefc4b;
+    }
+
+    13% {
+        transform: translateY(-1em);
+        text-shadow:
+            0 0.125em 0 #0c2ffb,
+            0 0.25em 0 #098585,
+            0 -0.125em 0 #fb203b,
+            0 -0.25em 0 #fefc4b;
+    }
+
+    26% {
+        transform: translateY(0.5em);
+        text-shadow:
+            0 -0.0625em 0 #0c2ffb,
+            0 -0.125em 0 #098585,
+            0 0.0625em 0 #fb203b,
+            0 0.125em 0 #fefc4b;
+    }
+
+    39% {
+        transform: translateY(-0.25em);
+        text-shadow:
+            0 0.03125em 0 #0c58fb,
+            0 0.0625em 0 #098585,
+            0 -0.03125em 0 #fb203b,
+            0 -0.0625em 0 #fefc4b;
+    }
+
+    52% {
+        transform: translateY(0);
+        text-shadow:
+            0 0 0 #0cfbab,
+            0 0 0 #098585,
+            0 0 0 #fb203b,
+            0 0 0 #fefc4b;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation: none !important;
+        transition: none !important;
+    }
+}

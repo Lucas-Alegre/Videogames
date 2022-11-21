@@ -1,0 +1,96 @@
+.contain {
+    color: aliceblue;
+}
+h1{
+    margin-top: 20px;
+}
+.soyh2{
+    margin-top: 1px;
+    color: #f21d41;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.container{
+    
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+.inputsContainer {
+    background-color: #230f2b;
+    margin-top: 250px;
+    font-weight: 500;
+    padding: 5px;
+    border-radius: 10px;
+    border: 3px groove rgba(238, 255, 0, 0.452);
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inputContainer {
+    background-color: #f21d41;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    border: 2px inset  rgba(167, 97, 97, 0.452);
+    border-radius: 10px;
+}
+
+.inputSelet {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #ebebbc;
+}
+.inputSelet2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.inputCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ebebbc;
+    margin: 5px;
+    padding: 10px;
+    width: 275px;
+}
+.boton{
+    margin-left: 0px;
+}
+.boton2{
+    margin-left: 0px;
+    background-color: #f21d41 ;
+    color: #230f2b;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px soli black;
+    font-size: 20px;
+}
+.botonx{
+    margin-left : 150px;
+    color: #f21d41;
+    font-weight: bold;
+    font-size: 18px;
+}
+.inp{
+    margin: 5px;
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 0px;
+    padding: 0px;
+    border: 2px solid black;
+}

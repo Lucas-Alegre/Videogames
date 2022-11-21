@@ -1,0 +1,20 @@
+body {
+    background-image: url('../image/home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #bacb21;
+    /*color: #c5d812;*/
+    padding-top: 15px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
